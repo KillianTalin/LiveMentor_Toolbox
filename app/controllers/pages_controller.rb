@@ -5,6 +5,6 @@ class PagesController < ApplicationController
   def manifesto
   end
 
-  def index_marketing
+  def marketing
   end
 end
