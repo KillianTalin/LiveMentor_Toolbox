@@ -45,3 +45,19 @@
 .card-link:hover {
   opacity: 0.1;
 }
+
+.card-tool {
+  padding: 25px 20px 25px 20px;
+  margin-bottom: 5px;
+  background: #FFF;
+}
+
+.card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
