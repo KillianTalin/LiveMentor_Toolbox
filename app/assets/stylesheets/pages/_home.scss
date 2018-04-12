@@ -20,3 +20,12 @@
 .half-fill {
   box-shadow: inset 0px -30px $secondary-color;
 }
+
+.half-fill-small {
+  font-weight: bold;
+  box-shadow: inset 0px -15px $secondary-color;
+}
+
+.col-xs-12.col-sm-4 {
+  padding: 0 35px 0 35px;
+}
