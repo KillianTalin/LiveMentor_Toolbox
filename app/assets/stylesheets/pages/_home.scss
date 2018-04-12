@@ -1,1 +1,21 @@
 // Specific CSS for your home-page
+.header {
+  color: $primary-color;
+  h1 {
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    text-align: justify;
+  }
+}
+
+.half-fill {
+  box-shadow: inset 0px -30px $secondary-color;
+}
