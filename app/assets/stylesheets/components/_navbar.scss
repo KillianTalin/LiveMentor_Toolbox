@@ -33,12 +33,15 @@
 .navbar-wagon-item {
   cursor: pointer;
   padding: 0 20px;
+  position: absolute;
+  top: 25px;
+  font-weight: bold
 }
 
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
-  font-size: 14px;
+  font-size: 15px;
 }
 .navbar-wagon-link:hover {
   color: $secondary-color;
@@ -74,4 +77,34 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.navbar-wagon-item {
+  position: absolute;
+  top: 25px;
+}
+
+#navbar-logo {
+ left: 550px;
+ font-size: 16px;
+}
+
+#navbar-item-1 {
+ left: 1020px;
+}
+
+#navbar-item-2 {
+ left: 1200px;
+}
+
+#navbar-item-3 {
+ left: 1400px;
+}
+
+.navbar-wagon-item-2 {
+  cursor: pointer;
+  padding: 0 20px;
+  position: absolute;
+  top: 25px;
+  right: 10px;
 }
